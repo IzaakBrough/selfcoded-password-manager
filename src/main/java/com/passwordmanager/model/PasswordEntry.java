@@ -32,7 +32,6 @@ public class PasswordEntry {
 
     public void setWebsite(String website) {
         this.website = website;
-        this.modifiedDate = LocalDateTime.now();
     }
 
     public String getUsername() {
@@ -41,7 +40,6 @@ public class PasswordEntry {
 
     public void setUsername(String username) {
         this.username = username;
-        this.modifiedDate = LocalDateTime.now();
     }
 
     public String getPassword() {
@@ -50,7 +48,6 @@ public class PasswordEntry {
 
     public void setPassword(String password) {
         this.password = password;
-        this.modifiedDate = LocalDateTime.now();
     }
 
     public String getNotes() {
@@ -59,7 +56,6 @@ public class PasswordEntry {
 
     public void setNotes(String notes) {
         this.notes = notes;
-        this.modifiedDate = LocalDateTime.now();
     }
 
     public LocalDateTime getCreatedDate() {
