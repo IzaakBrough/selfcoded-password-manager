@@ -1,0 +1,275 @@
+/* Color Scheme */
+:root {
+    -fx-primary-blue: #2196F3;
+    -fx-primary-blue-dark: #1976D2;
+    -fx-background-color: #f5f5f5;
+    -fx-dark-text: #333333;
+    -fx-light-text: #666666;
+    -fx-border-color: #cccccc;
+    -fx-error-color: #f44336;
+    -fx-success-color: #4caf50;
+}
+
+/* Global Styles */
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica", "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f5f5f5;
+}
+
+/* Login Container */
+.login-container {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 10, 0, 0, 2);
+    -fx-background-radius: 8px;
+    -fx-padding: 40px;
+}
+
+.title {
+    -fx-text-fill: #2196F3;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #666666;
+    -fx-font-size: 14px;
+}
+
+.field-label {
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+.hint-label {
+    -fx-text-fill: #999999;
+    -fx-font-size: 11px;
+}
+
+.error-label {
+    -fx-text-fill: #f44336;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Text Fields and Password Fields */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-background-radius: 4px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #2196F3;
+    -fx-border-width: 2px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-radius: 4px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.primary-button:pressed {
+    -fx-background-color: #1565C0;
+}
+
+.secondary-button {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #d0d0d0;
+}
+
+.action-button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 12px;
+}
+
+.action-button:hover {
+    -fx-background-color: #45a049;
+}
+
+.danger-button {
+    -fx-background-color: #f44336;
+}
+
+.danger-button:hover {
+    -fx-background-color: #da190b;
+}
+
+/* CheckBox */
+.check-box {
+    -fx-text-fill: #333333;
+}
+
+/* Main Container */
+.main-container {
+    -fx-background-color: #f5f5f5;
+}
+
+/* MenuBar */
+.menu-bar {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #333333;
+}
+
+/* Toolbar */
+.toolbar {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 10px;
+}
+
+/* TableView */
+.password-table {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+
+.password-table .column-header {
+    -fx-background-color: #f5f5f5;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 1px 1px 0;
+}
+
+.password-table .column-header-background {
+    -fx-background-color: #f5f5f5;
+}
+
+.password-table .table-cell {
+    -fx-padding: 8px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.password-table .table-row-cell {
+    -fx-background-color: white;
+}
+
+.password-table .table-row-cell:odd {
+    -fx-background-color: #fafafa;
+}
+
+.password-table .table-row-cell:selected {
+    -fx-background-color: #e3f2fd;
+}
+
+.password-table .table-row-cell:hover {
+    -fx-background-color: #f5f5f5;
+}
+
+/* Status Bar */
+.status-bar {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1px 0 0 0;
+    -fx-padding: 5px 10px;
+}
+
+.status-bar .label {
+    -fx-text-fill: #666666;
+    -fx-font-size: 12px;
+}
+
+/* Dialogs */
+.dialog-pane {
+    -fx-background-color: white;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #2196F3;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane .content {
+    -fx-padding: 20px;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-padding: 8px 16px;
+}
+
+/* Slider */
+.slider {
+    -fx-pref-width: 280px;
+}
+
+.slider .thumb {
+    -fx-background-color: #2196F3;
+}
+
+.slider .track {
+    -fx-background-color: #e0e0e0;
+}
+
+/* TextArea */
+.text-area {
+    -fx-background-color: white;
+    -fx-background-radius: 4px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+    -fx-padding: 8px;
+}
+
+.text-area:focused {
+    -fx-border-color: #2196F3;
+    -fx-border-width: 2px;
+}
+
+/* ScrollBar */
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #cccccc;
+    -fx-background-radius: 4px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #999999;
+}
+
+/* Alert */
+.alert .header-panel {
+    -fx-background-color: #2196F3;
+}
+
+.alert .header-panel .label {
+    -fx-text-fill: white;
+}
